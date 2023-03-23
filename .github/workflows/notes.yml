@@ -42,4 +42,4 @@ jobs:
 
       # Deploy to the defined URL using the token
     - name: Deploy to surge
-      run: surge ./build notes_app_arsalan.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build notesapparsalan.surge.sh --token ${{secrets.SURGE_TOKEN}}
